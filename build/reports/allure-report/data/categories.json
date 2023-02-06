@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <Coupon code applied successfully.> but was: <Код купона успешно применен.>",
+      "children" : [ {
+        "name" : "Проверка локализации(текст сообщения об применении купона)",
+        "uid" : "6933a52b67a1f535",
+        "parentUid" : "f8252ddbaa2d6b6417d7bc41ffa55462",
+        "status" : "failed",
+        "time" : {
+          "start" : 1672771556836,
+          "stop" : 1672771560203,
+          "duration" : 3367
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f8252ddbaa2d6b6417d7bc41ffa55462"
+    }, {
+      "name" : "expected: <Код купона успешно применен.> but was: <Coupon code applied successfully.>",
+      "children" : [ {
+        "name" : "Купон не применяется повторно",
+        "uid" : "aeeb3e9345e1f31d",
+        "parentUid" : "d53a577b931159ce1b63a475f95cae26",
+        "status" : "failed",
+        "time" : {
+          "start" : 1672771568717,
+          "stop" : 1672771582887,
+          "duration" : 14170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d53a577b931159ce1b63a475f95cae26"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

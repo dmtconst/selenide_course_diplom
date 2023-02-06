@@ -1,0 +1,186 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "pizza.tests.TestScript1",
+    "children" : [ {
+      "name" : "Авторизация",
+      "uid" : "289ae1160436b7e0",
+      "parentUid" : "8b1d21e0a68a00d42efc2486fe7a742a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771512622,
+        "stop" : 1672771523070,
+        "duration" : 10448
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Регистрация",
+      "uid" : "ebad323819be2e50",
+      "parentUid" : "8b1d21e0a68a00d42efc2486fe7a742a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771523254,
+        "stop" : 1672771528084,
+        "duration" : 4830
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Поиск товара через панель поиска",
+      "uid" : "f83f14910f722dc3",
+      "parentUid" : "8b1d21e0a68a00d42efc2486fe7a742a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771528099,
+        "stop" : 1672771531725,
+        "duration" : 3626
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Поиск товара через панель поиска- проверка по имени",
+      "uid" : "f5c6f2a120bd221f",
+      "parentUid" : "8b1d21e0a68a00d42efc2486fe7a742a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771531733,
+        "stop" : 1672771533502,
+        "duration" : 1769
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка суммы в корзине и правом верхнем углу",
+      "uid" : "3dd5eb9911017a78",
+      "parentUid" : "8b1d21e0a68a00d42efc2486fe7a742a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771533510,
+        "stop" : 1672771537581,
+        "duration" : 4071
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Добавление товара в корзину",
+      "uid" : "85f137d527968064",
+      "parentUid" : "8b1d21e0a68a00d42efc2486fe7a742a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771537588,
+        "stop" : 1672771540759,
+        "duration" : 3171
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Увеличение кол-ва товара в корзине",
+      "uid" : "8d59e44a224fef81",
+      "parentUid" : "8b1d21e0a68a00d42efc2486fe7a742a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771540765,
+        "stop" : 1672771544566,
+        "duration" : 3801
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка общей суммы",
+      "uid" : "d58b40823884b063",
+      "parentUid" : "8b1d21e0a68a00d42efc2486fe7a742a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771544577,
+        "stop" : 1672771556820,
+        "duration" : 12243
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8b1d21e0a68a00d42efc2486fe7a742a"
+  }, {
+    "name" : "pizza.tests.TestScript2and3",
+    "children" : [ {
+      "name" : "Проверка локализации(текст сообщения об применении купона)",
+      "uid" : "6933a52b67a1f535",
+      "parentUid" : "4082be0fab8091e38be31013fd31895e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1672771556836,
+        "stop" : 1672771560203,
+        "duration" : 3367
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Применение купона в 10%",
+      "uid" : "2390075be670bd6a",
+      "parentUid" : "4082be0fab8091e38be31013fd31895e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771560212,
+        "stop" : 1672771564508,
+        "duration" : 4296
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Применение невалидного купона",
+      "uid" : "c745ba45a7f656c6",
+      "parentUid" : "4082be0fab8091e38be31013fd31895e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771564519,
+        "stop" : 1672771568705,
+        "duration" : 4186
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4082be0fab8091e38be31013fd31895e"
+  }, {
+    "name" : "pizza.tests.TestScript4",
+    "children" : [ {
+      "name" : "Купон не применяется повторно",
+      "uid" : "aeeb3e9345e1f31d",
+      "parentUid" : "b4e753a736ddcbaed4ae152aabda7ed1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1672771568717,
+        "stop" : 1672771582887,
+        "duration" : 14170
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка наличия купона в разделе 'Акции'",
+      "uid" : "b8a4288d8214c3a2",
+      "parentUid" : "b4e753a736ddcbaed4ae152aabda7ed1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771582899,
+        "stop" : 1672771584142,
+        "duration" : 1243
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b4e753a736ddcbaed4ae152aabda7ed1"
+  } ]
+}

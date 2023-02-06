@@ -1,0 +1,222 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Script 1",
+    "children" : [ {
+      "name" : "MyAccount",
+      "children" : [ {
+        "name" : "Авторизация",
+        "uid" : "289ae1160436b7e0",
+        "parentUid" : "24608b255c0f6e6c4fd96d4fe344d490",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672771512622,
+          "stop" : 1672771523070,
+          "duration" : 10448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Регистрация",
+        "uid" : "ebad323819be2e50",
+        "parentUid" : "24608b255c0f6e6c4fd96d4fe344d490",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672771523254,
+          "stop" : 1672771528084,
+          "duration" : 4830
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24608b255c0f6e6c4fd96d4fe344d490"
+    }, {
+      "name" : "SearchInput",
+      "children" : [ {
+        "name" : "Поиск товара через панель поиска",
+        "uid" : "f83f14910f722dc3",
+        "parentUid" : "be031233ba177fd6adcb533c0d223a5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672771528099,
+          "stop" : 1672771531725,
+          "duration" : 3626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Поиск товара через панель поиска- проверка по имени",
+        "uid" : "f5c6f2a120bd221f",
+        "parentUid" : "be031233ba177fd6adcb533c0d223a5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672771531733,
+          "stop" : 1672771533502,
+          "duration" : 1769
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "be031233ba177fd6adcb533c0d223a5d"
+    }, {
+      "name" : "Basket",
+      "children" : [ {
+        "name" : "Проверка суммы в корзине и правом верхнем углу",
+        "uid" : "3dd5eb9911017a78",
+        "parentUid" : "77b975388e8966a0f0945c25c36a0335",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672771533510,
+          "stop" : 1672771537581,
+          "duration" : 4071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Добавление товара в корзину",
+        "uid" : "85f137d527968064",
+        "parentUid" : "77b975388e8966a0f0945c25c36a0335",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672771537588,
+          "stop" : 1672771540759,
+          "duration" : 3171
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Увеличение кол-ва товара в корзине",
+        "uid" : "8d59e44a224fef81",
+        "parentUid" : "77b975388e8966a0f0945c25c36a0335",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672771540765,
+          "stop" : 1672771544566,
+          "duration" : 3801
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77b975388e8966a0f0945c25c36a0335"
+    }, {
+      "name" : "OrderForm",
+      "children" : [ {
+        "name" : "Проверка общей суммы",
+        "uid" : "d58b40823884b063",
+        "parentUid" : "a53171a4a032927d8e8f5f280df17e20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672771544577,
+          "stop" : 1672771556820,
+          "duration" : 12243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a53171a4a032927d8e8f5f280df17e20"
+    } ],
+    "uid" : "c9a8d3918b9d7c6210bb0df59a5a0353"
+  }, {
+    "name" : "Script 2",
+    "children" : [ {
+      "name" : "Basket",
+      "children" : [ {
+        "name" : "Проверка локализации(текст сообщения об применении купона)",
+        "uid" : "6933a52b67a1f535",
+        "parentUid" : "9261da4f673c5365771668cce6a496f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1672771556836,
+          "stop" : 1672771560203,
+          "duration" : 3367
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Применение купона в 10%",
+        "uid" : "2390075be670bd6a",
+        "parentUid" : "9261da4f673c5365771668cce6a496f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672771560212,
+          "stop" : 1672771564508,
+          "duration" : 4296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9261da4f673c5365771668cce6a496f6"
+    } ],
+    "uid" : "5be2625c5f6e2c9324d289d9709571ff"
+  }, {
+    "name" : "Script 3",
+    "children" : [ {
+      "name" : "Basket",
+      "children" : [ {
+        "name" : "Применение невалидного купона",
+        "uid" : "c745ba45a7f656c6",
+        "parentUid" : "0daff780f069e8aff4a16b59143e802e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672771564519,
+          "stop" : 1672771568705,
+          "duration" : 4186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0daff780f069e8aff4a16b59143e802e"
+    } ],
+    "uid" : "83a5c6b2410e15ad5b21e4f802d01bda"
+  }, {
+    "name" : "Script 4",
+    "children" : [ {
+      "name" : "Order",
+      "children" : [ {
+        "name" : "Купон не применяется повторно",
+        "uid" : "aeeb3e9345e1f31d",
+        "parentUid" : "03ab39e149f2d66559b0b41625bc7697",
+        "status" : "failed",
+        "time" : {
+          "start" : 1672771568717,
+          "stop" : 1672771582887,
+          "duration" : 14170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "03ab39e149f2d66559b0b41625bc7697"
+    }, {
+      "name" : "Promotion",
+      "children" : [ {
+        "name" : "Проверка наличия купона в разделе 'Акции'",
+        "uid" : "b8a4288d8214c3a2",
+        "parentUid" : "50e6f20e9d051b05b37a85493a938ae8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1672771582899,
+          "stop" : 1672771584142,
+          "duration" : 1243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "50e6f20e9d051b05b37a85493a938ae8"
+    } ],
+    "uid" : "49702d1da27f33cdfdda0fb85e44afad"
+  } ]
+}

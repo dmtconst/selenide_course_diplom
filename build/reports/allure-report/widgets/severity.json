@@ -1,0 +1,131 @@
+[ {
+  "uid" : "d58b40823884b063",
+  "name" : "Проверка общей суммы",
+  "time" : {
+    "start" : 1672771544577,
+    "stop" : 1672771556820,
+    "duration" : 12243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8a4288d8214c3a2",
+  "name" : "Проверка наличия купона в разделе 'Акции'",
+  "time" : {
+    "start" : 1672771582899,
+    "stop" : 1672771584142,
+    "duration" : 1243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d59e44a224fef81",
+  "name" : "Увеличение кол-ва товара в корзине",
+  "time" : {
+    "start" : 1672771540765,
+    "stop" : 1672771544566,
+    "duration" : 3801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5c6f2a120bd221f",
+  "name" : "Поиск товара через панель поиска- проверка по имени",
+  "time" : {
+    "start" : 1672771531733,
+    "stop" : 1672771533502,
+    "duration" : 1769
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebad323819be2e50",
+  "name" : "Регистрация",
+  "time" : {
+    "start" : 1672771523254,
+    "stop" : 1672771528084,
+    "duration" : 4830
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6933a52b67a1f535",
+  "name" : "Проверка локализации(текст сообщения об применении купона)",
+  "time" : {
+    "start" : 1672771556836,
+    "stop" : 1672771560203,
+    "duration" : 3367
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c745ba45a7f656c6",
+  "name" : "Применение невалидного купона",
+  "time" : {
+    "start" : 1672771564519,
+    "stop" : 1672771568705,
+    "duration" : 4186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f83f14910f722dc3",
+  "name" : "Поиск товара через панель поиска",
+  "time" : {
+    "start" : 1672771528099,
+    "stop" : 1672771531725,
+    "duration" : 3626
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3dd5eb9911017a78",
+  "name" : "Проверка суммы в корзине и правом верхнем углу",
+  "time" : {
+    "start" : 1672771533510,
+    "stop" : 1672771537581,
+    "duration" : 4071
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "289ae1160436b7e0",
+  "name" : "Авторизация",
+  "time" : {
+    "start" : 1672771512622,
+    "stop" : 1672771523070,
+    "duration" : 10448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aeeb3e9345e1f31d",
+  "name" : "Купон не применяется повторно",
+  "time" : {
+    "start" : 1672771568717,
+    "stop" : 1672771582887,
+    "duration" : 14170
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "85f137d527968064",
+  "name" : "Добавление товара в корзину",
+  "time" : {
+    "start" : 1672771537588,
+    "stop" : 1672771540759,
+    "duration" : 3171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2390075be670bd6a",
+  "name" : "Применение купона в 10%",
+  "time" : {
+    "start" : 1672771560212,
+    "stop" : 1672771564508,
+    "duration" : 4296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

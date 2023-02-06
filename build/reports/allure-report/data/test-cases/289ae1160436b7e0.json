@@ -1,0 +1,354 @@
+{
+  "uid" : "289ae1160436b7e0",
+  "name" : "Авторизация",
+  "fullName" : "pizza.tests.TestScript1.authorization",
+  "historyId" : "b1e68a50a9e4423eddad693ee444558a",
+  "time" : {
+    "start" : 1672771512622,
+    "stop" : 1672771523070,
+    "duration" : 10448
+  },
+  "description" : "* Регистрация автоматически авторизирует Петю \nкак пользователя, это он проверяет взглядом на верхнюю\nправую часть страницы, где его приветствуют по имени\nпользователя.\n",
+  "descriptionHtml" : "<ul>\n<li>Регистрация автоматически авторизирует Петю\nкак пользователя, это он проверяет взглядом на верхнюю\nправую часть страницы, где его приветствуют по имени\nпользователя.</li>\n</ul>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openSite",
+    "time" : {
+      "start" : 1672771512628,
+      "stop" : 1672771519536,
+      "duration" : 6908
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open Pizzeria",
+      "time" : {
+        "start" : 1672771512656,
+        "stop" : 1672771519535,
+        "duration" : 6879
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") http://pizzeria.skillbox.cc",
+        "time" : {
+          "start" : 1672771512805,
+          "stop" : 1672771519534,
+          "duration" : 6729
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"webdriver\") create()",
+          "time" : {
+            "start" : 1672771512811,
+            "stop" : 1672771518320,
+            "duration" : 5509
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 3
+  }, {
+    "name" : "initializeAllureSelenide",
+    "time" : {
+      "start" : 1672771512498,
+      "stop" : 1672771512537,
+      "duration" : 39
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "* Регистрация автоматически авторизирует Петю \nкак пользователя, это он проверяет взглядом на верхнюю\nправую часть страницы, где его приветствуют по имени\nпользователя.\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click to my account from menu",
+      "time" : {
+        "start" : 1672771519736,
+        "stop" : 1672771520703,
+        "duration" : 967
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".logout\") is displayed()",
+        "time" : {
+          "start" : 1672771519740,
+          "stop" : 1672771519884,
+          "duration" : 144
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "$(\"#menu-item-30\") click()",
+        "time" : {
+          "start" : 1672771519885,
+          "stop" : 1672771520703,
+          "duration" : 818
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Set passport Tmen",
+      "time" : {
+        "start" : 1672771520707,
+        "stop" : 1672771520928,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#username\") set value(Tmen)",
+        "time" : {
+          "start" : 1672771520707,
+          "stop" : 1672771520928,
+          "duration" : 221
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Tmen"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Set passport Tmen123",
+      "time" : {
+        "start" : 1672771520929,
+        "stop" : 1672771521122,
+        "duration" : 193
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#password\") set value(Tmen123)",
+        "time" : {
+          "start" : 1672771520929,
+          "stop" : 1672771521122,
+          "duration" : 193
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "passport",
+        "value" : "Tmen123"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Click button registration",
+      "time" : {
+        "start" : 1672771521122,
+        "stop" : 1672771522168,
+        "duration" : 1046
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".button\") click()",
+        "time" : {
+          "start" : 1672771521122,
+          "stop" : 1672771522167,
+          "duration" : 1045
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Assert title - 'Hello username' after registration, then exit",
+      "time" : {
+        "start" : 1672771522168,
+        "stop" : 1672771523055,
+        "duration" : 887
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".woocommerce-MyAccount-content strong\") should have(text \"Tmen\")",
+        "time" : {
+          "start" : 1672771522172,
+          "stop" : 1672771522217,
+          "duration" : 45
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "$(\".login-woocommerce\") click()",
+        "time" : {
+          "start" : 1672771522217,
+          "stop" : 1672771523012,
+          "duration" : 795
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "$(\".account\") should be(visible)",
+        "time" : {
+          "start" : 1672771523013,
+          "stop" : 1672771523055,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "Tmen"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 3
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 13
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Script 1"
+  }, {
+    "name" : "feature",
+    "value" : "MyAccount"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-COTT468"
+  }, {
+    "name" : "thread",
+    "value" : "13676@DESKTOP-COTT468.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "pizza.tests.TestScript1"
+  }, {
+    "name" : "testClass",
+    "value" : "pizza.tests.TestScript1"
+  }, {
+    "name" : "testMethod",
+    "value" : "authorization"
+  }, {
+    "name" : "suite",
+    "value" : "pizza.tests.TestScript1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "289ae1160436b7e0.json",
+  "parameterValues" : [ ]
+}

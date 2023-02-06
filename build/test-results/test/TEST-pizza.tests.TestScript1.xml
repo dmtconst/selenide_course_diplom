@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pizza.tests.TestScript1" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-01-31T13:25:33" hostname="DESKTOP-COTT468" time="47.246">
+  <properties/>
+  <testcase name="Авторизация" classname="pizza.tests.TestScript1" time="14.726"/>
+  <testcase name="Регистрация" classname="pizza.tests.TestScript1" time="4.641"/>
+  <testcase name="Поиск товара через панель поиска" classname="pizza.tests.TestScript1" time="3.537"/>
+  <testcase name="Поиск товара через панель поиска- проверка по имени" classname="pizza.tests.TestScript1" time="1.716"/>
+  <testcase name="Проверка суммы в корзине и правом верхнем углу" classname="pizza.tests.TestScript1" time="3.744"/>
+  <testcase name="Добавление товара в корзину" classname="pizza.tests.TestScript1" time="2.93"/>
+  <testcase name="Увеличение кол-ва товара в корзине" classname="pizza.tests.TestScript1" time="3.844"/>
+  <testcase name="Проверка общей суммы" classname="pizza.tests.TestScript1" time="12.074"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 29843
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв. 31, 2023 4:25:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 109, so returning the closest version found: 108
+]]></system-err>
+</testsuite>

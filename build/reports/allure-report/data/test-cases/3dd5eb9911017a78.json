@@ -1,0 +1,393 @@
+{
+  "uid" : "3dd5eb9911017a78",
+  "name" : "Проверка суммы в корзине и правом верхнем углу",
+  "fullName" : "pizza.tests.TestScript1.checkSumIntoBasketAndSearchPanel",
+  "historyId" : "3c4ad7faff9de201c0dec143302142b8",
+  "time" : {
+    "start" : 1672771533510,
+    "stop" : 1672771537581,
+    "duration" : 4071
+  },
+  "description" : "* Теперь Петя готов заплатить, и он кликает для этого на иконку\nс корзиной (предварительно проверив, что сумма заказа\nрядом с иконкой верна).\n* Петя вспоминает, что у него в гостях подруга Таня, \nкоторая тоже любит пиццу и какао, и увеличивает прямо \nна странице корзины количество пиццы и какао до двух штук.Петя обновляет корзину и проверяет заново количество \nи стоимость заказа.\n",
+  "descriptionHtml" : "<ul>\n<li>Теперь Петя готов заплатить, и он кликает для этого на иконку\nс корзиной (предварительно проверив, что сумма заказа\nрядом с иконкой верна).</li>\n<li>Петя вспоминает, что у него в гостях подруга Таня,\nкоторая тоже любит пиццу и какао, и увеличивает прямо\nна странице корзины количество пиццы и какао до двух штук.Петя обновляет корзину и проверяет заново количество\nи стоимость заказа.</li>\n</ul>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openSite",
+    "time" : {
+      "start" : 1672771533510,
+      "stop" : 1672771533988,
+      "duration" : 478
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open Pizzeria",
+      "time" : {
+        "start" : 1672771533511,
+        "stop" : 1672771533988,
+        "duration" : 477
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") http://pizzeria.skillbox.cc",
+        "time" : {
+          "start" : 1672771533511,
+          "stop" : 1672771533988,
+          "duration" : 477
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 2
+  }, {
+    "name" : "initializeAllureSelenide",
+    "time" : {
+      "start" : 1672771512498,
+      "stop" : 1672771512537,
+      "duration" : 39
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "* Теперь Петя готов заплатить, и он кликает для этого на иконку\nс корзиной (предварительно проверив, что сумма заказа\nрядом с иконкой верна).\n* Петя вспоминает, что у него в гостях подруга Таня, \nкоторая тоже любит пиццу и какао, и увеличивает прямо \nна странице корзины количество пиццы и какао до двух штук.Петя обновляет корзину и проверяет заново количество \nи стоимость заказа.\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Hover under menu and click pizza",
+      "time" : {
+        "start" : 1672771534001,
+        "stop" : 1672771535132,
+        "duration" : 1131
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#menu-item-389\") hover()",
+        "time" : {
+          "start" : 1672771534001,
+          "stop" : 1672771534179,
+          "duration" : 178
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "$(\"#menu-item-390\") click()",
+        "time" : {
+          "start" : 1672771534179,
+          "stop" : 1672771535132,
+          "duration" : 953
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Add to basket",
+      "time" : {
+        "start" : 1672771535135,
+        "stop" : 1672771535563,
+        "duration" : 428
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".add_to_cart_button[2]\") click()",
+        "time" : {
+          "start" : 1672771535175,
+          "stop" : 1672771535250,
+          "duration" : 75
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "$(\".added_to_cart\") should be(visible)",
+        "time" : {
+          "start" : 1672771535251,
+          "stop" : 1672771535563,
+          "duration" : 312
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "count",
+        "value" : "2"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Go to basket ",
+      "time" : {
+        "start" : 1672771535563,
+        "stop" : 1672771536376,
+        "duration" : 813
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".added_to_cart\") should be(visible)",
+        "time" : {
+          "start" : 1672771535563,
+          "stop" : 1672771535585,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "$(\".added_to_cart\") click()",
+        "time" : {
+          "start" : 1672771535585,
+          "stop" : 1672771536376,
+          "duration" : 791
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Remove product",
+      "time" : {
+        "start" : 1672771536377,
+        "stop" : 1672771537512,
+        "duration" : 1135
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".cart_item .product-remove\") click()",
+        "time" : {
+          "start" : 1672771536427,
+          "stop" : 1672771536508,
+          "duration" : 81
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "$(\".cart_item .product-remove\") click()",
+        "time" : {
+          "start" : 1672771536536,
+          "stop" : 1672771537503,
+          "duration" : 967
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Assert sum near exit and basket",
+      "time" : {
+        "start" : 1672771537512,
+        "stop" : 1672771537581,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get sum into search panel",
+        "time" : {
+          "start" : 1672771537512,
+          "stop" : 1672771537546,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\".wcmenucart-contents\") get text()",
+          "time" : {
+            "start" : 1672771537512,
+            "stop" : 1672771537546,
+            "duration" : 34
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Get sum into basket",
+        "time" : {
+          "start" : 1672771537547,
+          "stop" : 1672771537581,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\".product-subtotal bdi\") get text()",
+          "time" : {
+            "start" : 1672771537547,
+            "stop" : 1672771537581,
+            "duration" : 34
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 4
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 17
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Basket"
+  }, {
+    "name" : "epic",
+    "value" : "Script 1"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-COTT468"
+  }, {
+    "name" : "thread",
+    "value" : "13676@DESKTOP-COTT468.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "pizza.tests.TestScript1"
+  }, {
+    "name" : "testClass",
+    "value" : "pizza.tests.TestScript1"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkSumIntoBasketAndSearchPanel"
+  }, {
+    "name" : "suite",
+    "value" : "pizza.tests.TestScript1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3dd5eb9911017a78.json",
+  "parameterValues" : [ ]
+}

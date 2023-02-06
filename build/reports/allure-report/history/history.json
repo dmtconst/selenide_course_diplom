@@ -1,0 +1,251 @@
+{
+  "4508bd549319edf429cd1c17a194ed5f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "85f137d527968064",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771537588,
+        "stop" : 1672771540759,
+        "duration" : 3171
+      }
+    } ]
+  },
+  "fc92e651bce68a4a15f636a3dc99ff0a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c745ba45a7f656c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771564519,
+        "stop" : 1672771568705,
+        "duration" : 4186
+      }
+    } ]
+  },
+  "5eed63b2df85647370db0e95064d4521" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f5c6f2a120bd221f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771531733,
+        "stop" : 1672771533502,
+        "duration" : 1769
+      }
+    } ]
+  },
+  "b1e68a50a9e4423eddad693ee444558a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "289ae1160436b7e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771512622,
+        "stop" : 1672771523070,
+        "duration" : 10448
+      }
+    } ]
+  },
+  "abc2966fcd62158ac9413e95e5a31f98" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d59e44a224fef81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771540765,
+        "stop" : 1672771544566,
+        "duration" : 3801
+      }
+    } ]
+  },
+  "c3a2245aa3bc9352f7e89714a0654f50" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b8a4288d8214c3a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771582899,
+        "stop" : 1672771584142,
+        "duration" : 1243
+      }
+    } ]
+  },
+  "861c061d40398375a42bbfa1b30ce838" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6933a52b67a1f535",
+      "status" : "failed",
+      "statusDetails" : "expected: <Coupon code applied successfully.> but was: <Код купона успешно применен.>",
+      "time" : {
+        "start" : 1672771556836,
+        "stop" : 1672771560203,
+        "duration" : 3367
+      }
+    } ]
+  },
+  "815ce8a8e7ea67de16a5f96d925db5b5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ebad323819be2e50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771523254,
+        "stop" : 1672771528084,
+        "duration" : 4830
+      }
+    } ]
+  },
+  "60913b6f0f046269547a6daa6fabc478" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d58b40823884b063",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771544577,
+        "stop" : 1672771556820,
+        "duration" : 12243
+      }
+    } ]
+  },
+  "9e22ad4fda4a39a881c14067302091b0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aeeb3e9345e1f31d",
+      "status" : "failed",
+      "statusDetails" : "expected: <Код купона успешно применен.> but was: <Coupon code applied successfully.>",
+      "time" : {
+        "start" : 1672771568717,
+        "stop" : 1672771582887,
+        "duration" : 14170
+      }
+    } ]
+  },
+  "3c4ad7faff9de201c0dec143302142b8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3dd5eb9911017a78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771533510,
+        "stop" : 1672771537581,
+        "duration" : 4071
+      }
+    } ]
+  },
+  "2d420a99da401b0b3fb244347fd2ab60" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f83f14910f722dc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771528099,
+        "stop" : 1672771531725,
+        "duration" : 3626
+      }
+    } ]
+  },
+  "1188f9b7d5079323de989c39755dbb0f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2390075be670bd6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672771560212,
+        "stop" : 1672771564508,
+        "duration" : 4296
+      }
+    } ]
+  }
+}
